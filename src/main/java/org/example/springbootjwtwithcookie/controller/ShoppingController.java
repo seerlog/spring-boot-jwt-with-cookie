@@ -10,4 +10,19 @@ public class ShoppingController {
     public String home() {
         return "home.html";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login.html";
+    }
+
+    @GetMapping("/join")
+    public String join() {
+        return "join.html";
+    }
+
+    @GetMapping("/logout")
+    public String logout() {
+        return "logout.html";
+    }
 }
